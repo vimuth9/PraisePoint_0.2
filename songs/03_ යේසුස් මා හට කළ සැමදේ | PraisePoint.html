@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:og="http://opengraphprotocol.org/schema/"
+  xmlns:fb="http://developers.facebook.com/schema/" class="stylish-select">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>යේසුස් මා හට කළ සැමදේ | Praise Point</title>
+  <link rel="shortcut icon" href="../images/01_ favicon-logo.png" type="image/x-icon" />
+  <meta name="description" content='Chords and lyrics for "දෙවිදුනි ඔබ මගේ සවියයි".' />
+  <link rel="canonical" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="../CSS/css.css" rel="stylesheet" />
+  <link href="../CSS/global.css" rel="stylesheet" />
+  <script src="../JS/global.js"></script>
+</head>
+
+<body data-doc-type="SongItem" data-template="Song" class="template-Song">
+  <a href="../index.html">Home</a>
+  <main role="main">
+    <div class="t-song-details">
+      <div class="t-song-details__info">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="t-song-details__chords">
+                <script src="../JS/transpose.js"></script>
+                <script>
+                  var _originalKey = "E";
+                  $(document).ready(function () {
+                    initTranspose(_originalKey);
+
+                    $("#chordPro_nav .chords").click(function () {
+                      showTransposeControls();
+                      $(".free-lyrics-download").hide();
+                    });
+
+                    $("#chordPro_nav .lyrics").click(function () {
+                      $(".transposeControls").hide();
+                      $(".free-lyrics-download").show();
+                    });
+
+                    $("#chordPro_nav .newLyrics").click(function () {
+                      $(".transposeControls").hide();
+                      $(".free-lyrics-download").show();
+                    });
+
+                    // Logic for selected tabs when a user moves the browser between desktop and Mobile view
+                    var tabSelect = true;
+                    window.addEventListener(
+                      "resize",
+                      function () {
+                        // fire when above 768px
+                        if (document.documentElement.clientWidth > 768) {
+                          if (tabSelect == false) {
+                            console.log(
+                              $("#song-details").hasClass("active")
+                            );
+                            if ($("#song-details").hasClass("active")) {
+                              $(".details").removeClass("active");
+                              $(".lyrics").addClass("active");
+                              $("div.chord-pro-note").hide();
+                              $(".t-song-details__details").hide();
+                              $(".t-song-details__related").hide();
+                              $(".chordProContainer").show();
+                            }
+                          }
+                          tabSelect = true;
+                        }
+                        // fire when below 768px
+                        else {
+                          tabSelect = false;
+                        }
+                      },
+                      true
+                    );
+                  });
+                </script>
+
+                <!--[if lte IE 8]>
+<script type="text/javascript">
+isChordTransposeEnabled = false;
+$(".transposeControls").hide();
+</script>
+< ![endif]-->
+
+                <div id="chordPro">
+                  <div id="chordPro_nav">
+                    <ul class="nav nav-tabs">
+                      <li class="chords active">
+                        <a data-toggle="tab" href="#" aria-expanded="true">Chords</a>
+                      </li>
+                      <li class="lyrics">
+                        <a data-toggle="tab" href="#" aria-expanded="false">Lyrics</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="chordProContainer" style="display: block">
+                    <div class="chord-pro-disp">
+                      <div class="transposeControls" style="display: block">
+                        <div class="transposeControls-container">
+                          <span class="transposeTitle">Transpose</span>
+
+                          <select id="keySelector" class="select select--inline" onchange="transposeByKey(this)">
+                            <option value="E">Original Key-E </option>
+                            <option>Ab</option>
+                            <option>A</option>
+                            <option>A#</option>
+                            <option>Bb</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>C#</option>
+                            <option>Db</option>
+                            <option>D</option>
+                            <option>D#</option>
+                            <option>Eb</option>
+                            <option>E</option>
+                            <option>F</option>
+                            <option>F#</option>
+                            <option>Gb</option>
+                            <option>G</option>
+                            <option>G#</option>
+                            <option>Numbers</option>
+                            <option>Do Re Mi</option>
+                          </select>
+                        </div>
+                      </div>
+
+<!--``````````````````````````````````````Song starts here``````````````````````````````````````````````-->
+                    <!-- Verse / Chorus / Pre-Chorus / Bridge -->
+                      <div class="chord-pro-line">
+                        <div class="chord-pro-segment">
+                          <div class="chord-pro-lyric">Chorus</div>
+                        </div>
+                      </div>
+
+                      <!-- Line -->
+
+                      <div class="chord-pro-line">
+                        <!-- Segment -->
+                        <div class="chord-pro-segment">
+                          <!-- Note -->
+                          <div class="chord-pro-note" style="display: block">
+                            <span class="matchedChordContainer"><span class="matchedChord" chordnumber="1">E</span><span
+                                class="suffix">&nbsp;</span></span>
+                          </div>
+                          <!-- Lyrics -->
+                          <div class="chord-pro-lyric">යේසුස් මා හට කල සැමදේ</div>
+                        </div>
+                      </div>
+
+                      <!-- Line -->
+
+                      <div class="chord-pro-line">
+                        <!-- Segment -->
+                        <div class="chord-pro-segment">
+                          <!-- Note -->
+                          <div class="chord-pro-note" style="display: block">
+                            <span class="matchedChordContainer"><span class="matchedChord" chordnumber="???"></span><span
+                                class="suffix">&nbsp;</span></span>
+                          </div>
+                          <!-- Lyrics -->
+                          <div class="chord-pro-lyric">මා හට සිහිවන විට</div>
+                        </div>
+                        <!-- Segment -->
+                        <div class="chord-pro-segment">
+                          <!-- Note -->
+                          <div class="chord-pro-note" style="display: block">
+                            <span class="matchedChordContainer"><span class="matchedChord" chordnumber="5">B</span><span
+                                class="suffix">&nbsp;</span></span>
+                          </div>
+                          <!-- Lyrics -->
+                          <div class="chord-pro-lyric"></div>
+                        </div>
+
+                      </div>
+
+                      <!-- Line -->
+
+                      <div class="chord-pro-line">
+                        <!-- Segment -->
+                        <div class="chord-pro-segment">
+                          <!-- Note -->
+                          <div class="chord-pro-note" style="display: block">
+                            <span class="matchedChordContainer"><span class="matchedChord" chordnumber="???"></span><span
+                                class="suffix">&nbsp;</span></span>
+                          </div>
+                          <!-- Lyrics -->
+                          <div class="chord-pro-lyric">මගෙ </div>
+                        </div>
+                        <!-- Segment -->
+                        <div class="chord-pro-segment">
+                          <!-- Note -->
+                          <div class="chord-pro-note" style="display: block">
+                            <span class="matchedChordContainer"><span class="matchedChord" chordnumber="1">E</span><span
+                                class="suffix">&nbsp;</span></span>
+                          </div>
+                          <!-- Lyrics -->
+                          <div class="chord-pro-lyric">ආත්මෙ කියයි හාලේ</div>
+                        </div>
+                        <!-- Segment -->
+                        <div class="chord-pro-segment">
+                            <!-- Note -->
+                            <div class="chord-pro-note" style="display: block">
+                              <span class="matchedChordContainer"><span class="matchedChord" chordnumber="4">A</span><span
+                                  class="suffix">&nbsp;</span></span>
+                            </div>
+                            <!-- Lyrics -->
+                            <div class="chord-pro-lyric">ලුයියා</div>
+                          </div>
+
+            <!-- Line -->
+
+                      <div class="chord-pro-line">
+                        <!-- Segment -->
+                        <div class="chord-pro-segment">
+                          <!-- Note -->
+                          <div class="chord-pro-note" style="display: block">
+                            <span class="matchedChordContainer"><span class="matchedChord" chordnumber="???"></span><span
+                                class="suffix">&nbsp;</span></span>
+                          </div>
+                          <!-- Lyrics -->
+                          <div class="chord-pro-lyric">යේ</div>
+                        </div>
+                        <!-- Segment -->
+                        <div class="chord-pro-segment">
+                          <!-- Note -->
+                          <div class="chord-pro-note" style="display: block">
+                            <span class="matchedChordContainer"><span class="matchedChord" chordnumber="1">E</span><span
+                                class="suffix">&nbsp;</span></span>
+                          </div>
+                          <!-- Lyrics -->
+                          <div class="chord-pro-lyric">සුස් මා ගැ</div>
+                        </div>
+                        <!-- Segment -->
+                        <div class="chord-pro-segment">
+                            <!-- Note -->
+                            <div class="chord-pro-note" style="display: block">
+                              <span class="matchedChordContainer"><span class="matchedChord" chordnumber="5">B</span><span
+                                  class="suffix">&nbsp;</span></span>
+                            </div>
+                            <!-- Lyrics -->
+                            <div class="chord-pro-lyric">ලෙව් නි</div>
+                          </div>
+                        <!-- Segment -->
+                        <div class="chord-pro-segment">
+                            <!-- Note -->
+                            <div class="chord-pro-note" style="display: block">
+                              <span class="matchedChordContainer"><span class="matchedChord" chordnumber="1">E</span><span
+                                  class="suffix">&nbsp;</span></span>
+                            </div>
+                            <!-- Lyrics -->
+                            <div class="chord-pro-lyric">සා</div>
+                          </div>
+  
+
+  
+                      </div>
+
+
+                      <!-- Break -->
+                      <div class='chord-pro-br'></div>
+
+
+<!--`````````````````````````````````````Song finishes here```````````````````````````````````````````````-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </main>
+</body>
+
+</html>
